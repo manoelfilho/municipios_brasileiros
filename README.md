@@ -3,6 +3,7 @@ O arquivo SQL contém todos os estados e municípios do Brasil. Além dos dados 
 Dicas sobre o uso com o google maps: 
 https://developers.google.com/maps/documentation/javascript/datalayer?hl=pt-br
 
+
 A tabela de municípios:
 municipio	text
 estado_id	int(11)
@@ -11,6 +12,7 @@ populacao	int(11)
 latitude	float
 longitude	float
 coordenadas	longtext
+
 
 A tabela estados:
 sigla	char(2)
